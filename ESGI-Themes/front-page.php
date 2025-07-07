@@ -8,7 +8,9 @@ get_header();
   <section class="hero">
     <div class="container">
       <h1>A really professional structure <br> for all your events</h1>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/png/5.png" alt="Hero Image">
+
+      <!-- ✅ Correction : chemin d’image avec des slashs "/" -->
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/5.png" alt="Hero Image">
     </div>
   </section>
 
@@ -17,6 +19,8 @@ get_header();
     <div class="container">
       <h2>About Us</h2>
       <p>Discover who we are and what we stand for.</p>
+
+      <!-- ✅ Lien vers page statique "About Us" -->
       <a href="<?php echo site_url('/about-us'); ?>">Learn more</a>
     </div>
   </section>
@@ -26,6 +30,8 @@ get_header();
     <div class="container">
       <h2>Our Services</h2>
       <p>See what we can offer to support your events.</p>
+
+      <!-- ✅ Lien vers page statique "Services" -->
       <a href="<?php echo site_url('/services'); ?>">View services</a>
     </div>
   </section>
@@ -35,6 +41,8 @@ get_header();
     <div class="container">
       <h2>Our Partners</h2>
       <p>They trust us.</p>
+
+      <!-- ✅ Lien vers page statique "Partners" -->
       <a href="<?php echo site_url('/partners'); ?>">Meet our partners</a>
     </div>
   </section>

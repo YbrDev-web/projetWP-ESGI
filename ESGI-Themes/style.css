@@ -1,6 +1,45 @@
 /*
-Theme Name: ESGI Theme
+Theme Name: ESGI-Themes
 Author: Yacine Ben Romdhane
 Version: 1.0
 Description: Thème custom développé pour le projet ESGI
 */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #0b0b40;
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    color: #0b0b40;
+    margin-bottom: 10px;
+  }
+  
+  section a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
