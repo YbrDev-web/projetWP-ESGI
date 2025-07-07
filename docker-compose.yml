@@ -21,10 +21,10 @@ services:
     volumes:
       - wp_data:/var/www/html
       - type: bind
-        source: ./Manga-Themes
+        source: ./ESGI-Themes
         target: /var/www/html/wp-content/themes/ESGI-Themes
       - type: bind
-        source: ./Manga-plugins
+        source: ./ESGI-plugins
         target: /var/www/html/wp-content/plugins/ESGI-plugins
     ports:
       - 88:80
