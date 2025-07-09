@@ -7,48 +7,63 @@ get_header();
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h1>A really professional structure <br> for all your events</h1>
-
-      <!-- ✅ Correction : chemin d’image avec des slashs "/" -->
+      <h1>A really professional structure <br> for all your events!</h1>
       <img src="<?php echo get_template_directory_uri(); ?>/images/png/5.png" alt="Hero Image">
     </div>
   </section>
 
   <!-- About Us Section -->
-  <section class="about-us">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Discover who we are and what we stand for.</p>
+  <section class="about-us container">
+    <h2>About Us</h2>
+    <p>Specializing in the creation of exceptional events, for private and corporate clients, we design, plan and manage every project from conception to execution.</p>
+    <a href="<?php echo site_url('/about-us'); ?>">Learn more</a>
+  </section>
 
-      <!-- ✅ Lien vers page statique "About Us" -->
-      <a href="<?php echo site_url('/about-us'); ?>">Learn more</a>
+  <!-- Bloc 2 colonnes texte + image -->
+  <section class="about-columns container">
+    <div class="column-left">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/2.png" alt="Camera Operator">
+    </div>
+    <div class="column-right">
+      <div class="sub-section">
+        <h3>Who are we?</h3>
+        <p>Learn more about our work, connections, storytelling skills, & specialized services for events and brand strategies.</p>
+      </div>
+      <div class="sub-section">
+        <h3>Our vision</h3>
+        <p>To lead the audiovisual future. Our goal: help our clients produce and broadcast the most impactful content possible. We believe in authenticity, meaning, and stories that resonate.</p>
+      </div>
+      <div class="sub-section">
+        <h3>Our mission</h3>
+        <p>Deliver immersive experiences for all projects & goals. Adapt and respond to each client’s needs, thanks to our creative skills, technical know-how, and teamwork.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <p>See what we can offer to support your events.</p>
-
-      <!-- ✅ Lien vers page statique "Services" -->
-      <a href="<?php echo site_url('/services'); ?>">View services</a>
+  <!-- Our Services -->
+  <section class="services container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/6.png" alt="Service 1">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/7.png" alt="Service 2">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/8.png" alt="Service 3">
     </div>
+    <a href="<?php echo site_url('/services'); ?>">Private Parties</a>
   </section>
 
-  <!-- Partners Section -->
-  <section class="partners">
-    <div class="container">
-      <h2>Our Partners</h2>
-      <p>They trust us.</p>
-
-      <!-- ✅ Lien vers page statique "Partners" -->
-      <a href="<?php echo site_url('/partners'); ?>">Meet our partners</a>
+  <!-- Our Partners -->
+  <section class="partners container">
+    <h2>Our Partners</h2>
+    <div class="logos">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-1.svg" alt="Partner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-2.svg" alt="Partner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-3.svg" alt="Partner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-4.svg" alt="Partner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-5.svg" alt="Partner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-6.svg" alt="Partner">
     </div>
   </section>
 
 </main>
 
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>
