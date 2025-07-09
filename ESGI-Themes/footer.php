@@ -21,8 +21,8 @@
 
     <!-- Bloc droit : Réseaux -->
     <div class="footer-socials">
-      <a href="#"><img src="<?php echo get_template_directory_uri(); ?>images/svg/linkedin.svg" alt="LinkedIn"></a>
-      <a href="#"><img src="<?php echo get_template_directory_uri(); ?>images/svg/facebook.svg" alt="Facebook"></a>
+      <!-- <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/svg/logo.svg" alt="LinkedIn"></a> -->
+      <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/svg/facebook.svg" alt="Facebook"></a>
     </div>
 
   </div>
