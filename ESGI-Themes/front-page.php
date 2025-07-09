@@ -5,12 +5,11 @@ get_header();
 <main class="home-page">
 
   <!-- Hero Section -->
-  <section class="hero">
+  <!-- <section class="hero">
     <div class="container">
       <h1>A really professional structure <br> for all your events!</h1>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/png/5.png" alt="Hero Image">
     </div>
-  </section>
+  </section> -->
 
   <!-- About Us Section -->
   <section class="about-us container">
