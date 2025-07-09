@@ -3,16 +3,9 @@ get_header();
 ?>
 
 <main class="home-page">
-
-  <!-- Hero Section -->
-  <!-- <section class="hero">
-    <div class="container">
-      <h1>A really professional structure <br> for all your events!</h1>
-    </div>
-  </section> -->
-
   <!-- About Us Section -->
   <section class="about-us container">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/png/1.png" alt="Camera Operator">
     <h2>About Us</h2>
     <p>Specializing in the creation of exceptional events, for private and corporate clients, we design, plan and manage every project from conception to execution.</p>
     <a href="<?php echo site_url('/about-us'); ?>">Learn more</a>
@@ -43,9 +36,9 @@ get_header();
   <section class="services container">
     <h2>Our Services</h2>
     <div class="services-grid">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/png/6.png" alt="Service 1">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/png/7.png" alt="Service 2">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/png/8.png" alt="Service 3">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/12.png" alt="Service 1">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/11.png" alt="Service 2">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/3.png" alt="Service 3">
     </div>
     <a href="<?php echo site_url('/services'); ?>">Private Parties</a>
   </section>

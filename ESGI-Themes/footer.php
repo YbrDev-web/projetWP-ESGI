@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="container footer-container">
-    
+
     <!-- Bloc gauche -->
     <div class="footer-left">
       <h2 class="footer-logo">ESGI.</h2>
@@ -19,13 +19,14 @@
       </div>
     </div>
 
-    <!-- Bloc droit : Réseaux -->
+    <!-- Bloc droit : Réseaux sociaux -->
     <div class="footer-socials">
-      <!-- <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/svg/logo.svg" alt="LinkedIn"></a> -->
+      <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/svg/linkedin.svg" alt="LinkedIn"></a>
       <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/svg/facebook.svg" alt="Facebook"></a>
     </div>
 
   </div>
+
   <?php wp_footer(); ?>
 </footer>
 </body>
