@@ -47,17 +47,10 @@ get_header();
   <section class="team">
     <h2>Our Team</h2>
     <div class="team-grid">
-      <?php for ($i = 1; $i <= 4; $i++): ?>
-        <div class="member">
-          <?php if (get_theme_mod("team_img_$i")): ?>
-            <img src="<?php echo esc_url(get_theme_mod("team_img_$i")); ?>" alt="">
-          <?php endif; ?>
-          <p>
-            <?php echo esc_html(get_theme_mod("team_name_$i")); ?><br>
-            <span><?php echo esc_html(get_theme_mod("team_role_$i")); ?></span>
-          </p>
-        </div>
-      <?php endfor; ?>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/5.png" alt="Photographer">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/6.png" alt="Photographer">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/7.png" alt="Photographer">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/png/8.png" alt="Photographer">
     </div>
   </section>
 
