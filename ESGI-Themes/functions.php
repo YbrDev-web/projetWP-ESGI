@@ -5,5 +5,5 @@ function parcourstech_enqueue_styles() {
 add_action('wp_enqueue_scripts', 'parcourstech_enqueue_styles');
 
 function theme_asset($path) {
-    return get_template_directory_uri() . '/assets/' . ltrim($path, '/');
+    return get_template_directory_uri() . '/images/' . ltrim($path, '/');
 }
