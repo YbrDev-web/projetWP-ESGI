@@ -4,6 +4,7 @@ get_header();
 
 <main class="home-page">
   <!-- About Us Section -->
+  <h1><p>A really professionnal structure for all your events</p></h1>
   <section class="about-us container">
   <img src="<?php echo get_template_directory_uri(); ?>/images/png/1.png" alt="Camera Operator">
     <h2>About Us</h2>
