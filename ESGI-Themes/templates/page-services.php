@@ -19,6 +19,7 @@ get_header();
   <p>Specializing in the creation of exceptional events for private and corporate Clients, we design. plan and manage every project from conception to execution</p>
 </main>
 
+<img src="<?php echo get_template_directory_uri(); ?>/images/png/9.png" alt="Partner">
 <?php
 get_footer();
 ?>
