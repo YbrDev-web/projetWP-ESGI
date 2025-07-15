@@ -269,3 +269,43 @@ section a {
   height: 20px;
   filter: brightness(0) invert(1);
 }
+
+
+/* ---------------------------- */
+/* 404 PAGE                     */
+/* ---------------------------- */
+.page-404 full-blue {
+  background-color: darkblue;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-404 h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.page-404 p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.page-404 .btn-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #0b0b40;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-404 .btn-link:hover {
+  background-color: #007BFF;
+  color: white;
+}
