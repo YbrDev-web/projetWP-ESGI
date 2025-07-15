@@ -15,7 +15,8 @@ get_header();
     <img src="<?php echo get_template_directory_uri(); ?>/images/png/3.png" alt="Partner">
   </div>
 
-  <a class="btn-link" href="<?php echo site_url('/contact'); ?>">Private Parties</a>
+  <h1>Corp. Parties</h1>
+  <p>Specializing in the creation of exceptional events for private and corporate Clients, we design. plan and manage every project from conception to execution</p>
 </main>
 
 <?php
