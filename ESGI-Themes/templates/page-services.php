@@ -20,6 +20,7 @@ get_header();
 </main>
 
 <img src="<?php echo get_template_directory_uri(); ?>/images/png/9.png" alt="Partner">
+
 <?php
 get_footer();
 ?>

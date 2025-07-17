@@ -54,6 +54,8 @@ get_header();
     </div>
   </section>
 
+  <a href="<?php echo home_url(); ?>" class="btn-link">Back to Homepage</a>
+
 </main>
 
 <?php
