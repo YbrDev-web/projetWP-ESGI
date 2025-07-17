@@ -9,7 +9,7 @@ get_header();
   <img src="<?php echo get_template_directory_uri(); ?>/images/png/1.png" alt="Camera Operator">
     <h2>About Us</h2>
     <p>Specializing in the creation of exceptional events, for private and corporate clients, we design, plan and manage every project from conception to execution.</p>
-    <a href="<?php echo site_url('/about-us'); ?>">Learn more</a>
+    <a href="<?php echo get_page_url_by_title('About Us'); ?>" class="btn-link">About Us</a>
   </section>
 
   <!-- Bloc 2 colonnes texte + image -->
@@ -41,21 +41,26 @@ get_header();
       <img src="<?php echo get_template_directory_uri(); ?>/images/png/11.png" alt="Service 2">
       <img src="<?php echo get_template_directory_uri(); ?>/images/png/3.png" alt="Service 3">
     </div>
-    <a href="<?php echo site_url('/services'); ?>">Private Parties</a>
+    <a href="<?php echo get_page_url_by_title('Service'); ?>" class="btn-link">Services</a>
   </section>
 
   <!-- Our Partners -->
-  <section class="partners container">
-    <h2>Our Partners</h2>
-    <div class="logos">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-1.svg" alt="Partner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-2.svg" alt="Partner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-3.svg" alt="Partner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-4.svg" alt="Partner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-5.svg" alt="Partner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/svg/partner-6.svg" alt="Partner">
-    </div>
-  </section>
+  <!-- Our Partners -->
+<section class="partners container">
+  <h2>Our Partners</h2>
+  <div class="logos">
+    <?php $partners_url = get_page_url_by_title('Partners'); ?>
+    <?php
+      $partners = ['partner-1.svg', 'partner-2.svg', 'partner-3.svg', 'partner-4.svg', 'partner-5.svg', 'partner-6.svg'];
+      foreach ($partners as $partner) :
+    ?>
+      <a href="<?php echo $partners_url; ?>">
+        <img src="<?php echo get_template_directory_uri() . '/images/svg/' . $partner; ?>" alt="Partner">
+      </a>
+    <?php endforeach; ?>
+  </div>
+</section>
+
 
 </main>
 
