@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<h1>Bienvenue sur le thème ParcoursTech</h1>
+<h1>ESGI</h1>
 
 <?php
 get_footer();
